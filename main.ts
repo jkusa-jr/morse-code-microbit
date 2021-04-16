@@ -111,6 +111,10 @@ function Traslate (text: string) {
         Text = "" + Text + " "
     } else if (text == "-.-.--") {
         Text = "" + Text + "!"
+    } else if (text == ".-...") {
+        Text = "" + Text + "&"
+    } else if (text == "-.-.-.") {
+        Text = "" + Text + ";"
     } else if (text == "") {
         Text = "" + Text + ""
     } else {
