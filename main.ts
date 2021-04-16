@@ -109,6 +109,10 @@ function Traslate (text: string) {
         Text = "" + Text + "@"
     } else if (text == " ") {
         Text = "" + Text + " "
+    } else if (text == "-.-.--") {
+        Text = "" + Text + "!"
+    } else if (text == "") {
+        Text = "" + Text + ""
     } else {
         basic.showString("INVALID CHARACTER")
         Moris_code = ""
